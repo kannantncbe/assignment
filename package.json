@@ -4,7 +4,7 @@
     "description": "demo sample code",
     "main": "app.js",
     "scripts": {
-        "start": "node app",
+        "start": "node app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Kannan TN",

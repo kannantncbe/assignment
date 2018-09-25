@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 var http = require('http');
 
 var config = require('./includes/config.js');
+var port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -29,6 +30,6 @@ require('./controller/demo_controller.js')(app);
 
 // listen for requests
 
-server.listen(3000, function() {
-    console.log("API Service listening at 3000");
+server.listen(port, function() {
+    console.log("API Service listening at " + port);
 });
