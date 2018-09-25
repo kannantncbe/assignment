@@ -2,6 +2,11 @@
 
 MongoDB Collections name: demo_user, demo_product, demo_transaction
 
+FEATURES:
+MongoDB data insert/update/retrive using Promise.
+
+Collections:
+
 demo_user: _id, name, phone, address
 demo_product: _id, name, unit_price, description
 demo_transaction: _id, date, product_id(ref to Product), user_id(ref to User), quantity, total_price
